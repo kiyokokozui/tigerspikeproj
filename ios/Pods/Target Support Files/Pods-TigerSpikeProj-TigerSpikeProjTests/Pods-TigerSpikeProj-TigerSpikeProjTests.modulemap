@@ -1,0 +1,6 @@
+module Pods_TigerSpikeProj_TigerSpikeProjTests {
+  umbrella header "Pods-TigerSpikeProj-TigerSpikeProjTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
