@@ -74,7 +74,6 @@ export default class SignUpScreen extends React.Component {
     }
 
     if (password === '') {
-      console.log(password);
       this.setState({
         passwordEmpty: true,
       });
@@ -97,7 +96,6 @@ export default class SignUpScreen extends React.Component {
       .createUserWithEmailAndPassword(username, password)
       .then((res) => {
         this.setState({isLoading: false});
-        console.log(res);
         Alert.alert(
           'Sign up successful!',
           'You will be redirected to home page',

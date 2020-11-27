@@ -74,7 +74,6 @@ export default class LoginScreen extends React.Component {
     }
 
     if (password === '') {
-      console.log(password);
       this.setState({
         passwordEmpty: true,
       });
@@ -92,7 +91,6 @@ export default class LoginScreen extends React.Component {
       .signInWithEmailAndPassword(username, password)
       .then((res) => {
         this.setState({isLoading: false});
-        console.log(res);
         this.props.navigation.navigate('Home');
       })
       .catch((err) => {
