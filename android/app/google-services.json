@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "110736157285",
+    "firebase_url": "https://tigerspikemap.firebaseio.com",
+    "project_id": "tigerspikemap",
+    "storage_bucket": "tigerspikemap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110736157285:android:43babcaf52dda41d9a348c",
+        "android_client_info": {
+          "package_name": "com.tigerspikeproj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110736157285-c7j18v9gs7ovo97lkvomltcck20530uh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALhMLobo3JTditcplKK8P5hrrG10LC5pM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110736157285-c7j18v9gs7ovo97lkvomltcck20530uh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
